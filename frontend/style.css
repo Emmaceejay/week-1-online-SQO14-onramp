@@ -1,0 +1,186 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.nobul {
+    list-style: none;
+    text-decoration: none;
+}
+
+/*Creating hero section*/
+.hero_section {
+    display: flex;
+    background-color: rgb(189, 236, 236);
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    height: 100vh;
+    
+
+}
+.card_holder .card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+    width: 350px;
+    gap: 40px;
+}
+
+.main-content{
+    display: flex;
+    gap: 30px;
+}
+
+.card_holder .customer_pic {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+
+
+.customer, .customer_details{
+    display: flex;
+}
+
+.customer_details{
+    gap: 10px;
+    align-items: center;
+
+}
+
+.card_holder .card_content {
+    justify-self: flex-start;
+    align-self: flex-start;
+    margin-top: 15px;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+/*Payment Section styling*/
+.card_background {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: auto;
+    width: 100vw;
+    padding: 60px;
+    align-items: center;
+}
+
+
+.payment_section {
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    border: solid .2rem orange;
+    padding: 15px;
+    margin-top: auto;
+    margin: auto 0px 20px 0px;
+    background-color:rgb(250, 248, 245);
+    align-self: center;
+    border-radius: 10px 10px 10px 10px;
+    word-wrap: break-word;
+}
+    
+.section1 {
+    margin-top: auto;
+}
+
+.section1 .section_title,
+.key_drive {
+    text-align: center;
+    width: 550px;
+    word-wrap: break-word;
+}
+
+.section1 .section_title{
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.section1 .key_drive {
+    font-size: 20px;
+    color: rgb(144, 141, 141);
+    padding-bottom: 5px;
+    word-wrap: break-word;
+    margin: 10px 0px 40px 0px;
+}
+
+.nobul {
+    padding: 0;
+    display: flex;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.specifications li{
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+}
+
+.specifications img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.nobul.second {
+    display: block;
+    align-items: center;
+}
+
+.nobul.second li{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.cost_section .nobul li {
+    align-self: baseline;
+}
+
+
+.cost_section .duration {
+    color: rgb(144, 141, 141);
+    font-size: 20px;
+}
+
+.cost_section .cost {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+
+.button_holder{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: 0px;
+}
+
+button{
+    padding: 0px 50px 0px 50px;
+}
+
+button li img{
+    height: 30px;
+    width: 30px;
+    padding: 0px;
+}
+button .button_content li{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+
+
